@@ -1,2 +1,6 @@
-package io.github.jotamath.btgpactual.orderms.listener.dto;public class OrderCreatedEvent {
+package io.github.jotamath.btgpactual.orderms.listener.dto;
+
+import java.util.List;
+
+public record OrderCreatedEvent(Long codigoPedido, Long codigoCliente, List<OrderItemEvent> itens) {
 }
