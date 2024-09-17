@@ -1,0 +1,17 @@
+{
+  "codigoPedido": 1002,
+  "codigoCliente": 1,
+  "total": 2450.10,
+  "items": [
+    {
+      "produto": "notebook",
+      "quantidade": 1,
+      "preco": 2300.10
+    },
+    {
+      "produto": "mouse",
+      "quantidade": 1,
+      "preco": 150.00
+    }
+  ]
+}
